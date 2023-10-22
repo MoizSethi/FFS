@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <img src="asset/logo.png" alt="Logo" class="logo" width="150px">
+        <img src="asset/logo.png" alt="Logo" class="logo">
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>

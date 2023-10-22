@@ -1,0 +1,41 @@
+/* Apply styles to the header */
+header {
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+    background-color: #333; /* Change this to your desired background color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    justify-content: space-between; /* Space out the logo and navigation */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    .logo {
+        width: 150px; /* Adjust the width as needed */
+        height: auto; /* Maintain aspect ratio */
+    }
+    nav {
+        ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+            display: inline; /* Display list items horizontally */
+            margin-right: 20px; /* Adjust spacing between menu items */
+            a {
+                text-decoration: none;
+                color: #fff; /* Text color for links */
+                font-weight: bold;
+            }
+        }
+    }
+}.btn {
+    background-color: $primarycolor; /* Button background color */
+    color: $textcolor; /* Button text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    :hover {
+        background-color: #ff6b49; /* Change color on hover */
+    }
+}
+}
